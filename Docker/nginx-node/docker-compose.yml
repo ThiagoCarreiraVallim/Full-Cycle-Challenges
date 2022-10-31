@@ -1,0 +1,51 @@
+version: '3.8'
+services:
+
+  app:
+    build: 
+      context: ./app
+    container_name: app
+    ports:
+      - 9000:9000
+    tty: true
+    entrypoint: wait-for db:3306 -t 300 -- sh ./start.sh
+    environment:
+      - PORT=9000
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_DATABASE=fullcycledb
+    networks:
+      - nginx_node
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: db
+    restart: always
+    tty: true
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=fullcycledb
+      - MYSQL_ROOT_PASSWORD=root
+    networks:
+      - nginx_node
+
+  nginx:
+    restart: always
+    container_name: nginx
+    build:
+      context: ./nginx
+    ports:
+      - "8080:80"  
+    networks:
+      - nginx_node
+    depends_on:
+      - db
+      - app
+
+networks:
+  nginx_node:
+    driver: bridge
