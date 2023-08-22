@@ -11,7 +11,7 @@ Clone o repositório com o comando:
 Abra a pasta do desafio:
 
 ``` sh
-  cd Full-Cycle-Challenges/ddd-taticals/desafio-order-repository
+  cd Full-Cycle-Challenges/ddd-taticals/desafio-customer-events
 ```
 
 Instale as depêndencias:
