@@ -12,5 +12,5 @@ A repo for all challenges made in Full Cycle 3.0 course
 
 ## [Desafio Usecase](/clean-architecture/usecase-products/README.md)
 
-## [Desafio Endpoint](/clean-architecture/endpoint-product/README.md)
+## [Desafio Endpoint](/clean-architecture/endpoint-products/README.md)
 
