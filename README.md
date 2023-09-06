@@ -11,3 +11,6 @@ A repo for all challenges made in Full Cycle 3.0 course
 ## [Desafio CustomerEvents](/ddd-taticals/desafio-customer-events/README.md)
 
 ## [Desafio Usecase](/clean-architecture/usecase-products/README.md)
+
+## [Desafio Endpoint](/clean-architecture/endpoint-product/README.md)
+
