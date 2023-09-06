@@ -1,4 +1,4 @@
-# Desafio Usecase Products
+# Desafio Endpoint Products
 
 ## Rodando o projeto
 
@@ -11,7 +11,7 @@ Clone o repositório com o comando:
 Abra a pasta do desafio:
 
 ``` sh
-  cd Full-Cycle-Challenges/clean-architecture/usecase-products
+  cd Full-Cycle-Challenges/clean-architecture/endpoint-products
 ```
 
 Instale as depêndencias:
@@ -29,5 +29,5 @@ Rode os testes com o seguinte comando:
 Caso queira rodar apenas os testes do desafio execute:
 
 ```sh
-  npm test usecase/product
+  npm test __tests__/product
 ```
