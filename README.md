@@ -15,3 +15,5 @@ A repo for all challenges made in Full Cycle 3.0 course
 ## [Desafio Endpoint](/clean-architecture/endpoint-products/README.md)
 
 ## [Desafio Notification](/clean-architecture/notification-pattern/README.md)
+
+## [Desafio Validation](/clean-architecture/validation-products/README.md)
