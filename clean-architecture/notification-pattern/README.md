@@ -1,4 +1,4 @@
-# Desafio Endpoint Products
+# Desafio Notification Products
 
 ## Rodando o projeto
 
@@ -11,7 +11,7 @@ Clone o repositório com o comando:
 Abra a pasta do desafio:
 
 ``` sh
-  cd Full-Cycle-Challenges/clean-architecture/endpoint-products
+  cd Full-Cycle-Challenges/clean-architecture/notification-pattern
 ```
 
 Instale as depêndencias:
@@ -29,5 +29,5 @@ Rode os testes com o seguinte comando:
 Caso queira rodar apenas os testes do desafio execute:
 
 ```sh
-  npm test __tests__/product
+  npm test product.spec.ts
 ```
