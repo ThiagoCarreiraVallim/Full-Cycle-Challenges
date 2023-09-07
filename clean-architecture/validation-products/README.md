@@ -1,4 +1,4 @@
-# Desafio Notification Products
+# Desafio Validation Products
 
 ## Rodando o projeto
 
@@ -11,7 +11,7 @@ Clone o repositório com o comando:
 Abra a pasta do desafio:
 
 ``` sh
-  cd Full-Cycle-Challenges/clean-architecture/notification-pattern
+  cd Full-Cycle-Challenges/clean-architecture/validation-products
 ```
 
 Instale as depêndencias:
