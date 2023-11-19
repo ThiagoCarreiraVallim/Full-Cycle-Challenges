@@ -28,13 +28,13 @@ describe("Find all products usecase unit test", () => {
     const expectResults = {
       products: [
         {
-          id: product.id,
+          id: product.id.id,
           name: product.name,
           description: product.description,
           salesPrice: product.salesPrice,
         },
         {
-          id: product2.id,
+          id: product2.id.id,
           name: product2.name,
           description: product2.description,
           salesPrice: product2.salesPrice,
