@@ -23,9 +23,9 @@ export default class AddClientUseCase {
       state: input.state,
       zipCode: input.zipCode,
     }
-    console.log(props.id);
     
     const client = new Client(props);
+
     await this._clientRepository.add(client);
 
     return {
